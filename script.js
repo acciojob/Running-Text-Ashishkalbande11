@@ -1,8 +1,7 @@
-//your JS code here. If required.
 const textEl = document.getElementById("text");
 const speedEl = document.getElementById("speed");
  
-const text = textEl.innerText;
+const text = "We love Programming!";
  
 let idx = 1;
  
@@ -25,4 +24,4 @@ function writeText() {
  
 speedEl.addEventListener("input", (e) => {
   time = NUM / e.target.value;
-});;
+});
